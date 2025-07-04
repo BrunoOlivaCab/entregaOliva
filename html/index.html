@@ -4,48 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Tienda del 10</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+     <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 
-    <h1> La Tienda del 10 </h1>  
+    
 
     
 <body>
-<p> Usuario </p>
+<header>
+<h1> La Tienda del 10 </h1> 
+<div class="formulario">
+    <h2> Usuario </h2>
 
     <input type="text" id="usuario">
 
-<p>Contraseña</p>
+<h2>Contraseña</h2>
 
     <input type="text" id="contraseña">
 
         <button id="boton1"> Iniciar Sesion </button> 
 
-    <p id="resultadoInicio"> </p>
+</div>
 
-    <div id="stock"> 
-            <ul>
-               
+</header>
+<main>
+     
 
-            </ul>
 
-    </div>
+<div id="stock">       </div>
 
-   
-</body>
-
+</main>
 <footer>
-     <h2> Ingresa ITEM a (Agregar/Eliminar/Buscar) </h2>
-    <input type="text" id="itemIngresado">
+     <div id="botonera">
 
-    <button id="btnAgregar"> Agregar </button> 
-    <button id="btnEliminar"> Eliminar </button> 
-    <button id="btnBuscar"> Buscar </button> 
 
-    <p id="resultadoBusqueda"></p>
+     </div>
+<div id="formularioAgregar"> </div>
+<div id="resultadoBuscar"></div>
 
-    <button id="btnGuardar">Guardar cambios</button>
 
     <script src="../javascript/tienda.js"></script>
 </footer>
+</body>
+
+
 </html>
